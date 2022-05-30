@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="header-1">
+        <nav class="menu">
+            <ul>
+                <li><a href="./index.html">Home</a></li> <!--Substituir por logotipo-->
+                <li><a href="./produtos.html">Produtos</a></li>
+                <li><a href="./selecao.html">Criar</a></li>
+            </ul>
+        </nav>
+        <div class="login">
+            <a href="./login.html"><button>Login</button></a>
+        </div>
+    </div>
+    <div class="header-2">
+        <main>
+            <div id="carouselExampleIndicators" class="carousel slide banner" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100 banner" src="img/snorlax.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="..." alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="..." alt="Third slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only"></span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only"></span>
+                </a>
+              </div>
+              
+              <div class="vitrine">
+                <form class="vitrine">
+                <div class="camisa">
+                    <img id="cami" class="borda" src="./img/camisa-black.png" width="256" alt="">
+                    <div class="escolha">
+                    <label for="camisas">Cor:</label>
+
+                    <select id="camisas" onchange="camisaChange()">
+                      <option value="./img/camisa-black.png">Preto</option>
+                      <option value="./img/camisa-red.png">Vermelho</option>
+                      <option value="./img/camisa-blue.png">Azul</option>
+                      <option value="./img/camisa-yellow.png">Amarelo</option>
+                      <option value="./img/camisa-white.png">Branco</option>
+                    </select>
+                  </div>
+                </div>
+      
+                <div class="estampa">
+                  <img id="esta" class="borda" src="./img/kirby.png" width="256" alt="">
+                  <div class="escolha">
+                    <label for="estampas">Estampa:</label>
+
+                    <select id="estampas" onchange="estampaChange()">
+                      <option value="./img/kirby.png">Kirby</option>
+                      <option value="./img/4estrelas.png">4 Estrelas</option>
+                      <option value="./img/heisenberg.png">Heisenberg</option>
+                      <option value="./img/catpotter.png">Cat Potter</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="resultado">
+                  <img id="resul" class="borda" src="./img/camisa-black-kirby.png" width="256" alt="">
+                  <br>
+                  <a id="oi" class="btn btn-danger" onclick="exibir()">Testar</a>
+                </div>
+              </form>
+              </div>
+<br>
+<br>
+<br>
+<br>
+
+        </main> 
+    </div>
+    <footer class="footer">footer</footer>
+    <script src="cp.js"></script>
+</body>
+</html>
