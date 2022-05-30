@@ -1,4 +1,10 @@
+@font-face {
+    font-family: Level up;
+    src: url(Level-Up.otf);
+  }
+
 body{
+    font-family: Level up;
     width: 100%;
     height: 100%;
     margin: 0 auto;
