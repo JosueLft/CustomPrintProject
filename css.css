@@ -131,3 +131,11 @@ body{
     height: 100px;
     color: whitesmoke;
 }
+
+.footer p{
+    margin-top: 40px;
+    margin-left: 43%;
+    float: none;
+    position: absolute;
+    justify-content: center;
+}
