@@ -1,0 +1,77 @@
+.carousel-item {
+    height: 320px;
+}
+
+/* DESTAQUE */
+.produtos {
+    margin: 50px 0;
+}
+
+.destaques, .novidades {
+    float: left;
+}
+
+#carouselExampleControls {
+    width: 300px;
+    padding: 24px;
+    height: 280px;
+}
+
+.card {
+    width: 250px;
+    align-items: center;
+}
+
+.card-icon {
+    font-size: 15px;
+}
+
+.miniature {
+    max-height: 100px;
+    max-width: 100px;
+    width: auto;
+    height: auto;
+}
+
+.card-text {
+    font-size: 10px;
+}
+
+.card-list {
+    display: inline;
+    text-decoration: none;
+}
+
+/* NOVIDADES */
+
+.card-news {
+    max-height: 300px;
+    max-width: 400px;
+    width: auto;
+    height: auto;
+}
+
+.card-news .card-img-top {
+    width: auto;
+    height: auto;
+}
+
+.novidades {
+    margin-left: 50px;
+    width: 60%;
+}
+
+/* FOOTER SECTION*/
+.footer {
+    padding-top: 35px;
+    padding-left: 50px;
+}
+
+#social li {
+    display: inline;
+    text-decoration: none;
+}
+
+i {
+    font-size: 30px;
+}
