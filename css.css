@@ -138,6 +138,7 @@ body{
     float: none;
     position: absolute;
     justify-content: center;
+    feature/home-page
 }
 
 .camisas1{
@@ -147,6 +148,3 @@ body{
 .estampas2{
     float: right;
 }
-
-
-
